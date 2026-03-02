@@ -1,5 +1,5 @@
 
-		/* ===== CSS Variables ===== */
+
 		:root {
 			--gold: #c8a96a;
 			--gold-light: #dfc08a;
@@ -17,7 +17,6 @@
 			--font-body: 'Josefin Sans', sans-serif;
 		}
 
-		/* ===== Reset ===== */
 		*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 		html { scroll-behavior: smooth; }
 
@@ -29,7 +28,7 @@
 			overflow-x: hidden;
 		}
 
-		/* ===== Grain Overlay ===== */
+		
 		body::before {
 			content: '';
 			position: fixed;
@@ -40,14 +39,14 @@
 			opacity: 0.4;
 		}
 
-		/* ===== Container ===== */
+		
 		.container {
 			width: 92%;
 			max-width: 1180px;
 			margin: 0 auto;
 		}
 
-		/* ===== Header ===== */
+		
 		#header-wrapper {
 			position: sticky;
 			top: 0;
@@ -76,7 +75,7 @@
 			text-transform: uppercase;
 		}
 
-		/* ===== Nav ===== */
+
 		#nav ul {
 			list-style: none;
 			display: flex;
@@ -104,7 +103,7 @@
 			color: var(--gold);
 		}
 
-		/* Dropdown */
+		
 		#nav ul li ul {
 			position: absolute;
 			top: calc(100% + 12px);
@@ -143,7 +142,7 @@
 		}
 		#nav .btn-nav:hover { background: var(--gold-light) !important; color: var(--dark) !important; }
 
-		/* ===== Banner ===== */
+
 		#banner-wrapper {
 			position: relative;
 			min-height: 90vh;
@@ -155,7 +154,7 @@
 			overflow: hidden;
 		}
 
-		/* Decorative line */
+	
 		#banner-wrapper::after {
 			content: '';
 			position: absolute;
@@ -222,7 +221,7 @@
 			flex-wrap: wrap;
 		}
 
-		/* ===== Buttons ===== */
+	
 		.btn {
 			display: inline-block;
 			text-decoration: none;
@@ -256,7 +255,6 @@
 			color: var(--gold);
 		}
 
-		/* ===== Section Title ===== */
 		.section-title {
 			text-align: center;
 			margin-bottom: 64px;
@@ -294,7 +292,7 @@
 		.title-rule span { width: 60px; height: 1px; background: var(--border); }
 		.title-rule i { color: var(--gold); font-size: 10px; }
 
-		/* ===== Features ===== */
+		
 		#features-wrapper {
 			padding: 100px 0;
 			background: var(--dark-2);
@@ -371,7 +369,6 @@
 			opacity: 0.7;
 		}
 
-		/* ===== Main Section ===== */
 		#main-wrapper {
 			padding: 100px 0;
 			background: var(--dark);
@@ -384,7 +381,7 @@
 			align-items: start;
 		}
 
-		/* Sidebar */
+	
 		.sidebar-widget {
 			background: var(--surface);
 			border: 1px solid var(--border);
@@ -490,7 +487,6 @@
 			opacity: 0.7;
 		}
 
-		/* ===== Footer ===== */
 		#footer-wrapper {
 			background: var(--dark-3);
 			padding: 72px 0 40px;
@@ -587,13 +583,13 @@
 			text-transform: uppercase;
 		}
 
-		/* ===== Animations ===== */
+	
 		@keyframes fadeUp {
 			from { opacity: 0; transform: translateY(30px); }
 			to   { opacity: 1; transform: translateY(0); }
 		}
 
-		/* ===== Responsive ===== */
+
 		@media (max-width: 900px) {
 			.features-grid { grid-template-columns: 1fr; }
 			.main-grid { grid-template-columns: 1fr; }
