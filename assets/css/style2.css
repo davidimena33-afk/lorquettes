@@ -27,7 +27,7 @@
 			overflow-x: hidden;
 		}
 
-		/* Grain */
+		
 		body::before {
 			content: '';
 			position: fixed;
@@ -44,7 +44,7 @@
 			margin: 0 auto;
 		}
 
-		/* ===== Header ===== */
+	
 		#header-wrapper {
 			position: sticky;
 			top: 0;
@@ -129,7 +129,6 @@
 
 		.btn-nav:hover { background: var(--gold-light) !important; }
 
-		/* ===== Page Hero ===== */
 		#menu-hero {
 			padding: 90px 0 70px;
 			text-align: center;
@@ -191,7 +190,7 @@
 			color: var(--text-muted);
 		}
 
-		/* ===== Category Filter ===== */
+	
 		#category-nav {
 			background: var(--dark-2);
 			border-bottom: 1px solid var(--border);
@@ -231,7 +230,7 @@
 			border-bottom-color: var(--gold);
 		}
 
-		/* ===== Menu Content ===== */
+		
 		#menu-content {
 			padding: 80px 0 100px;
 			background: var(--dark);
@@ -354,7 +353,7 @@
 			padding-top: 2px;
 		}
 
-		/* ===== "All" view — section titles inline ===== */
+	
 		.menu-all-section { margin-bottom: 72px; }
 
 		.menu-all-section:last-child { margin-bottom: 0; }
@@ -377,7 +376,6 @@
 			background: var(--border);
 		}
 
-		/* ===== Footer ===== */
 		#footer-wrapper {
 			background: var(--dark-3);
 			padding: 60px 0 36px;
@@ -470,13 +468,13 @@
 			color: rgba(154,143,126,0.45);
 		}
 
-		/* ===== Animations ===== */
+	
 		@keyframes fadeUp {
 			from { opacity: 0; transform: translateY(20px); }
 			to   { opacity: 1; transform: translateY(0); }
 		}
 
-		/* ===== Responsive ===== */
+		
 		@media (max-width: 780px) {
 			.menu-items-grid { grid-template-columns: 1fr; }
 			.footer-grid { grid-template-columns: 1fr 1fr; }
@@ -488,4 +486,5 @@
 			#nav ul li a { padding: 7px 8px; font-size: 10px; }
 			.footer-grid { grid-template-columns: 1fr; }
 			.menu-item { padding: 20px; }
+
 		}
